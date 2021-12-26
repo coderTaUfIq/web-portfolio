@@ -1,5 +1,6 @@
 body{
     font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
 }
 
 h1{
@@ -19,4 +20,62 @@ h1{
 
 .half-width img{
     width: 100%;
+}
+
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(134, 167, 236) , lime);
+    padding: 8px 12px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    color: dimgray;
+}
+
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 200px;
+}
+
+.ground-p{
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.last-edit-1{
+    height: 20%;
+    padding-left: 70px;
+}
+
+#exp-short{
+    font-size: 60px;
+    color: goldenrod;
+}
+
+footer p{
+    text-align: center;
 }
